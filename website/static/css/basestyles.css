@@ -1,0 +1,60 @@
+body{
+  
+background-image: url('abc.jpg');
+background-size: 100%,100%;
+}
+
+
+h1 {
+
+   font-size: 2.5rem;
+    text-align: center;
+    margin-top: 25px;
+
+font-style: italic;
+font-family: Courier New;
+text-color: green;
+text-decoration: underline;
+text-transform: capitalize;
+text-shadow: 5px 1px 4px aqua;
+font-size: 500%;
+opacity: 0.7;
+filter: alpha(opacity=70);
+}
+
+
+a{
+	
+color: black;
+
+}
+p.c
+{
+font-family: Bell MT;
+color:brown;
+text-align: center;
+font-size: 2.0rem;
+}
+
+p.cl{
+font-family: Harlow Solid, fantasy;
+font-size: 30px;
+float: right;
+width: 20%;
+margin-right: 150px;
+margin-top: 50px;
+display: block;
+}
+.container {
+	margin-top: 20px;
+
+	padding: 30px;
+ font-family: Imprint MT Shadow;
+font-style: italic;
+word-wrap: normal;
+text-transform: capitalize;
+display: block;
+font-size: 100%;
+opacity: 0.7;
+filter: alpha(opacity=70);
+}

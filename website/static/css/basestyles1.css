@@ -1,0 +1,58 @@
+body{
+
+background-image: url('jess-watters-483666-unsplash.jpg');
+background-size: 70%;
+}
+h1 {
+
+   font-size: 2.5rem;
+    text-align: center;
+    margin-top: 25px;
+ font-family: Florence, cursive;
+font-style: italic;
+
+text-transform: capitalize;
+text-shadow: 5px 2px 4px red, -3px 6px 4px grey;
+font-size: 300%;
+opacity: 0.7;
+filter: alpha(opacity=70);
+}
+h2{
+ text-align: center;
+ font-family: Times New Roman;
+ text-transform: capitalize;
+ font-size: 250%;
+
+}
+h3{
+
+font-family:Felix Titling;
+
+font-size: 25px;
+ text-align: center;
+
+ text-transform: capitalize;
+ text-shadow: 5px 2px 4px yellow;
+
+}
+.container {
+	margin-top: 20px;
+     float: right;
+	padding: 30px;
+ font-family: Cooper, cursive;
+font-style: italic;
+word-wrap: normal;
+text-transform: capitalize;
+
+font-size: 25px;
+opacity: 0.7;
+filter: alpha(opacity=70);}
+
+.article
+{
+font-family: High Tower Text;
+text-transform: capitalize;
+text-color:  green;
+font-size: 100%;
+
+}

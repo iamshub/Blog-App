@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="{% static 'css/basestyles1.css' %}">
+
+  <title>Blog App</title>
+</head>
+<body>
+
+  <header>
+
+    <h1> WELCOME TO THE BLOG</h1>
+     <p>Please  <a href="{% url 'logout' %}">Logout </a> Here</p>
+
+      {% block content %}
+      {% endblock content %}
+  </header>
+
+</body>
+</html>
+

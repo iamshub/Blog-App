@@ -1,0 +1,50 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="{% static 'css/basestyles.css' %}">
+
+  <title>Blog App</title>
+</head>
+<body>
+
+  <header>
+
+    <h1><a href="/">BLOG APP</a></h1>
+      <p class="c"><marquee> WELCOME TO THE HOME PAGE</marquee></p>
+
+  </header>
+<p class='cl'>Writing is something from within.
+It takes experience to set a milestone
+and such writes-ups really took us to another world.
+In the world of creativity, I welcome you to my <font color="red" >Blog</font>.
+</p>
+
+    <div class="container">
+
+      {% if user.is_authenticated %}
+      <p>You are Logged in</p>
+  <br>   <p>Hey there: {{user.username}}, How are you?</p>
+      <p>Please  <a href="{% url 'logout' %}">Logout </a> Here</p>
+        </br>
+
+      {% else%}
+
+      <p>You are not logged in</p>
+      <p>Reader Please <button type="submit"><a href="http://127.0.0.1:8000/accounts/login/">Login</a> </button> here</p>
+
+      {% endif %}
+
+      {% block content %}
+      {% endblock content %}
+
+    </div>
+
+
+</body>
+</html>
